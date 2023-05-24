@@ -5,43 +5,49 @@
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
+    line-height: 18px;
 
 }
 
 body {
-    background-color: #BBBBBB;
-    padding-left: 24px;
+    background-image: url(./imagems/dolar-fundo.jpg);
+    background-size:contain;
+    background-position: center bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    width: 100%;
 
 
 }
 
 .conteiner {
-    height: 66px;
     width: 375px;
-    background-color: grey;
-    margin: 0 auto;
-    margin-top: 100px;
+    height: 90%;
+    
+
 
 }
 
 header {
     height: 66px;
     background-color: #1B83E2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
-
-    font-family: 'Roboto';
-    font-size: 24px;
-    line-height: 18px;
-    text-align: center;
+    font-size: 30px;
     color: #F4F4F4;
-    padding-top: 25px;
+   
 }
 
 main {
     background-color: #E5E5E5;
-    padding-left: 24px;
+    padding-left: 27px;
+    
 
 }
 
@@ -49,9 +55,6 @@ label {
     font-weight: bold;
     font-size: 14px;
     line-height: 18px;
-
-
-
 }
 
 select {
@@ -105,7 +108,7 @@ button {
 }
 
 button:hover {
-    opacity: 0.3;
+    opacity: 0.9;
 }
 
 button:active {
@@ -114,33 +117,48 @@ button:active {
 }
 
 section {
-    width: 95%;
+    
     border: 1px solid #1B83E2;
     border-radius: 4px;
-    margin-bottom: 50px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 25px;
 }
 
 .currecy-conteiner {
-    text-align: center;
     padding: 10px;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
 }
 
 .currecy-name {
     
     font-size: 14px;
-    line-height: 18px;
+    
     color: #777777;
 }
 
 .currecy-value {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 18px;
-    color: #1B83E2;
-}
-.arrow-img{
     
-    margin:  auto;
-    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #1B83E2;
+    margin-bottom: 25px;
+}
+.box{
+    margin-bottom: 25px;
+    margin-right: 20px;
+}
+.box-left{
+    margin-bottom: 25px;
+    margin-right: 20px;
+}
+   
+@media screen and (max-width:585px) {
+
+    
 }
